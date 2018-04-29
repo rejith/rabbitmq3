@@ -62,6 +62,16 @@
 			{
 				
 			}
+		},
+		{
+			"name": "stream",
+			"vhost": "appz",
+			"durable": true,
+			"auto_delete": false,
+			"arguments": 
+			{
+				
+			}
 		}
 	],
 
