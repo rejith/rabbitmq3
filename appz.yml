@@ -1,0 +1,27 @@
+app:
+  code: LGH3
+  name: Loadgen Hub
+  notify: appz@cloudbourne.co
+  
+build:
+  build_file: none
+  env: DEV
+  image_name: myco/loadgen-hub
+  image_template: rabbitmq3
+  output_files: output/*.zip
+  version: 3.7
+  
+deploy:
+  context: myco/DEV
+  port:
+  - 15672
+  - 5672
+  replicas: 1
+  
+properties:
+  nano: 34
+  
+volumes:
+- claim: loadgen-hub-pvc
+  mount: /var/lib/rabbitmq
+  name: data
