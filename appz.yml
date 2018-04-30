@@ -19,7 +19,7 @@ deploy:
   replicas: 1
   
 properties:
-  nano: 34
+  nano: 35
   
 volumes:
 - claim: none
