@@ -54,6 +54,16 @@
 	"queues": 
 	[
 		{
+			"name": "hello",
+			"vhost": "appz",
+			"durable": true,
+			"auto_delete": false,
+			"arguments": 
+			{
+				
+			}
+		},
+		{
 			"name": "log",
 			"vhost": "appz",
 			"durable": true,
