@@ -98,7 +98,7 @@
 			"vhost": "appz",
 			"destination": "log",
 			"destination_type": "queue",
-			"routing_key": "",
+			"routing_key": "hello.*",
 			"arguments": 
 			{
 				
