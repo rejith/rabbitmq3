@@ -1,7 +1,6 @@
 {
 	"rabbit_version": "3.7.4",
-	"users": 
-	[
+	"users": [
 		{
 			"name": "admin",
 			"password_hash": "rfqPdwXGd0oWeCuJzwudAXDhEyJtj1yscXkR6JKWrRnT1AMz",
@@ -9,16 +8,12 @@
 			"tags": "administrator"
 		}
 	],
-
-	"vhosts": 
-	[
+	"vhosts": [
 		{
 			"name": "appz"
 		}
 	],
-
-	"permissions": 
-	[
+	"permissions": [
 		{
 			"user": "admin",
 			"vhost": "appz",
@@ -27,39 +22,22 @@
 			"read": ".*"
 		}
 	],
-
-	"topic_permissions": 
-	[
-		
-	],
-
-	"parameters": 
-	[
-		
-	],
-
-	"global_parameters": 
-	[
+	"topic_permissions": [],
+	"parameters": [],
+	"global_parameters": [
 		{
 			"name": "cluster_name",
 			"value": "rabbit@rabbitmq3"
 		}
 	],
-
-	"policies": 
-	[
-		
-	],
-
-	"queues": 
-	[
+	"policies": [],
+	"queues": [
 		{
 			"name": "hello",
 			"vhost": "appz",
 			"durable": true,
 			"auto_delete": false,
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		},
@@ -68,8 +46,7 @@
 			"vhost": "appz",
 			"durable": true,
 			"auto_delete": false,
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		},
@@ -78,8 +55,7 @@
 			"vhost": "appz",
 			"durable": true,
 			"auto_delete": false,
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		},
@@ -88,15 +64,12 @@
 			"vhost": "appz",
 			"durable": true,
 			"auto_delete": false,
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		}
 	],
-
-	"exchanges": 
-	[
+	"exchanges": [
 		{
 			"name": "log",
 			"vhost": "appz",
@@ -104,23 +77,19 @@
 			"durable": true,
 			"auto_delete": false,
 			"internal": false,
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		}
 	],
-
-	"bindings": 
-	[
+	"bindings": [
 		{
 			"source": "log",
 			"vhost": "appz",
 			"destination": "log",
 			"destination_type": "queue",
 			"routing_key": "",
-			"arguments": 
-			{
+			"arguments": {
 				
 			}
 		}
