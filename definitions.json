@@ -42,7 +42,7 @@
 			}
 		},
 		{
-			"name": "welcome",
+			"name": "welcome2",
 			"vhost": "appz",
 			"durable": true,
 			"auto_delete": false,
