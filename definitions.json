@@ -49,6 +49,15 @@
 			"arguments": {
 				
 			}
+		},
+		{
+			"name": "ALM",
+			"vhost": "appz",
+			"durable": true,
+			"auto_delete": false,
+			"arguments": {
+				
+			}
 		}		
 	],
 	"exchanges": [
