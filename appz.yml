@@ -19,7 +19,7 @@ deploy:
   replicas: 1
   
 properties:
-  nano: 46
+  nano: 47
   
 volumes:
 - claim: loadgen-hub-pvc
