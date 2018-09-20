@@ -7,7 +7,7 @@ build:
   build_file: none
   env: DEV
   image_name: myco/loadgen-hub
-  image_template: rabbitmq3
+  image_template: rabbitm3
   output_files: output/*.zip
   version: 3.7
   
